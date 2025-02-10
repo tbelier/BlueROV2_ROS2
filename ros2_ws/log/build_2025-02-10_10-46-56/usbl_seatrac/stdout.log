@@ -1,0 +1,22 @@
+[ 33%] Built target usbl_pub_cpp_choice_beacon
+[ 66%] Built target usbl_pub_cpp
+[100%] Built target usbl_pub_cpp_multi
+-- Install configuration: ""
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/usbl_seatrac/usbl_pub_cpp
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/usbl_seatrac/usbl_pub_cpp_choice_beacon
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/usbl_seatrac/usbl_pub_cpp_multi
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/ament_index/resource_index/package_run_dependencies/usbl_seatrac
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/ament_index/resource_index/parent_prefix_path/usbl_seatrac
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/environment/path.sh
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/environment/path.dsv
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/local_setup.bash
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/local_setup.sh
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/local_setup.zsh
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/local_setup.dsv
+-- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.dsv
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/ament_index/resource_index/packages/usbl_seatrac
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/cmake/usbl_seatracConfig.cmake
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/cmake/usbl_seatracConfig-version.cmake
+-- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.xml

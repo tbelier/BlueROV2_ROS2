@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/castor_pollux/castor_pollux.egg-info
+writing ../../build/castor_pollux/castor_pollux.egg-info/PKG-INFO
+writing dependency_links to ../../build/castor_pollux/castor_pollux.egg-info/dependency_links.txt
+writing entry points to ../../build/castor_pollux/castor_pollux.egg-info/entry_points.txt
+writing requirements to ../../build/castor_pollux/castor_pollux.egg-info/requires.txt
+writing top-level names to ../../build/castor_pollux/castor_pollux.egg-info/top_level.txt
+writing manifest file '../../build/castor_pollux/castor_pollux.egg-info/SOURCES.txt'
+reading manifest file '../../build/castor_pollux/castor_pollux.egg-info/SOURCES.txt'
+writing manifest file '../../build/castor_pollux/castor_pollux.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build/lib
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build/lib/castor_pollux
+copying castor_pollux/__init__.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build/lib/castor_pollux
+running install
+running install_lib
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages/castor_pollux
+copying /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build/lib/castor_pollux/__init__.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages/castor_pollux
+byte-compiling /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages/castor_pollux/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/ament_index
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/ament_index/resource_index
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/ament_index/resource_index/packages
+copying resource/castor_pollux -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/ament_index/resource_index/packages
+copying package.xml -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux
+creating /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+copying launch/castor_pollux.launch.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+copying launch/castor_polluxTestDockingManuelRosbag.launch.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+copying launch/castor_polluxTestGuidancePressure.launch.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+copying launch/castor_polluxDepthSansUSBL.launch.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+copying launch/castor_polluxTestGuidancePressureRosbag.launch.py -> /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/launch
+running install_egg_info
+Copying ../../build/castor_pollux/castor_pollux.egg-info to /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages/castor_pollux-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/install.log'

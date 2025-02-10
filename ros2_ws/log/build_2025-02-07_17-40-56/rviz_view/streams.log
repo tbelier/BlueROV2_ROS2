@@ -1,0 +1,101 @@
+[0.797s] Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view
+[0.965s] -- The C compiler identification is GNU 11.4.0
+[0.965s] -- The CXX compiler identification is GNU 11.4.0
+[0.965s] -- Detecting C compiler ABI info
+[0.965s] -- Detecting C compiler ABI info - done
+[0.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.965s] -- Detecting C compile features
+[0.965s] -- Detecting C compile features - done
+[0.966s] -- Detecting CXX compiler ABI info
+[1.033s] -- Detecting CXX compiler ABI info - done
+[1.043s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.043s] -- Detecting CXX compile features
+[1.043s] -- Detecting CXX compile features - done
+[1.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.176s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.283s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.348s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.353s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.366s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.424s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.426s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.559s] -- Looking for pthread.h
+[1.614s] -- Looking for pthread.h - found
+[1.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.687s] -- Found Threads: TRUE  
+[1.750s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.764s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[1.772s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.835s] -- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.841s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.842s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.842s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.844s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.875s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.945s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.947s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.947s] -- Configured cppcheck include dirs: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view/include
+[1.947s] -- Configured cppcheck exclude dirs and/or files: 
+[1.948s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.949s] -- Added test 'lint_cmake' to check CMake code style
+[1.950s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.951s] -- Added test 'uncrustify' to check C / C++ code style
+[1.951s] -- Configured uncrustify additional arguments: 
+[1.952s] -- Added test 'xmllint' to check XML markup files
+[1.954s] -- Configuring done
+[1.971s] -- Generating done
+[1.976s] -- Build files have been written to: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view
+[1.984s] Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view
+[1.986s] Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[2.020s] gmake[2]: Warning: File '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view/src/boat_controller.cpp' has modification time 535 s in the future
+[2.025s] [ 16%] [32mBuilding CXX object CMakeFiles/boat_simulation_node.dir/src/boat_simulation.cpp.o[0m
+[2.028s] [ 33%] [32mBuilding CXX object CMakeFiles/target_publisher_node.dir/src/boat_global_target.cpp.o[0m
+[2.028s] [ 50%] [32mBuilding CXX object CMakeFiles/boat_controller_node.dir/src/boat_controller.cpp.o[0m
+[2.177s] In file included from [01m[K/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view/src/boat_simulation.cpp:6[m[K:
+[2.178s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.178s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.178s]       |  [01;35m[K^~~~~~~[m[K
+[5.146s] [ 66%] [32m[1mLinking CXX executable target_publisher_node[0m
+[5.299s] [ 66%] Built target target_publisher_node
+[8.794s] [ 83%] [32m[1mLinking CXX executable boat_simulation_node[0m
+[9.153s] [ 83%] Built target boat_simulation_node
+[9.814s] [100%] [32m[1mLinking CXX executable boat_controller_node[0m
+[10.251s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.260s] [100%] Built target boat_controller_node
+[10.272s] Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[10.274s] Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view
+[10.282s] -- Install configuration: ""
+[10.282s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_simulation_node
+[10.283s] -- Set runtime path of "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_simulation_node" to ""
+[10.283s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_controller_node
+[10.286s] -- Set runtime path of "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_controller_node" to ""
+[10.286s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/target_publisher_node
+[10.287s] -- Set runtime path of "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/target_publisher_node" to ""
+[10.287s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view//launch
+[10.287s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view//launch/Bluerov.launch.py
+[10.287s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/meshes
+[10.287s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/meshes/boat.dae
+[10.289s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/config
+[10.289s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/config/rviz_view.yaml
+[10.289s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/package_run_dependencies/rviz_view
+[10.289s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/parent_prefix_path/rviz_view
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/ament_prefix_path.sh
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/ament_prefix_path.dsv
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/path.sh
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/path.dsv
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.bash
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.sh
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.zsh
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.dsv
+[10.290s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.dsv
+[10.291s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/packages/rviz_view
+[10.291s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/cmake/rviz_viewConfig.cmake
+[10.291s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/cmake/rviz_viewConfig-version.cmake
+[10.291s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.xml
+[10.293s] Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view

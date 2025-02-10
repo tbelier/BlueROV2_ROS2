@@ -1,0 +1,8 @@
+/boat_simulation_node:
+  ros__parameters:
+    initial_x: 0.0
+    initial_y: 0.0
+    initial_z: 0.0
+    initial_roll: 0.0
+    initial_pitch: 0.0
+    initial_yaw: 0.0

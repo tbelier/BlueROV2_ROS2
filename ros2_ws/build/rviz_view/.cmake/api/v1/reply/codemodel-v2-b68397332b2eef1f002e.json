@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f0d4c178043aec9ffd71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz_view",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "boat_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boat_controller_node-5a2dc9d348ef0e911aeb.json",
+					"name" : "boat_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "boat_simulation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boat_simulation_node-df9e9ab0f729b65e0d6e.json",
+					"name" : "boat_simulation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_view_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_view_uninstall-4a301ba44710c8604cd4.json",
+					"name" : "rviz_view_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "target_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-target_publisher_node-c897ab01fe2b3835a60e.json",
+					"name" : "target_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d0eb7bfe1616c9481743.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view",
+		"source" : "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

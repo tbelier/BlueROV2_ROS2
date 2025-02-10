@@ -1,0 +1,1139 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x769820c609d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x769820c60400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x769820c60400>>)
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagGuerledanJour1) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250205_rosbagStabilisationProfondeurClean) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_apremLongueMission5m+deplacementLateralSousEau) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionLongueUSBLetIMU) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_missionVisionavecMartin2) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_retardPression) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(250206_rosbagAttitudeIMU) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250206_visionMissionAvecMartin) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_39_15) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_41_23) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(250226_Matin_RosbagsAcheckerPreCassageCastorMotor/rosbag2_2025_02_05-15_43_29) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(Tools) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_10_35) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_11_20) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_14_30) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-15_21_39) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_26_49) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_28_27) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_22) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_29_50) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_21) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_31_58) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_34_58) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_36_40) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_15) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_37_57) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_43_27) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_44_16) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-17_58_19) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_27_43) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_31_16) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_26) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_02_06-18_40_33) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_ros_camera) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluerov_ros_camera' with type 'ros.ament_python' and name 'bluerov_ros_camera'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov_vision) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluerov_vision' with type 'ros.ament_python' and name 'bluerov_vision'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/castor_pollux) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/castor_pollux' with type 'ros.ament_python' and name 'castor_pollux'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/guidance) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/guidance' with type 'ros.ament_python' and name 'guidance'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/message2) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message2' with type 'ros.ament_cmake' and name 'message2'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_view) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz_view' with type 'ros.ament_cmake' and name 'rviz_view'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_python' and name 'sensors'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/td2) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/td2' with type 'ros.ament_cmake' and name 'td2'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/usbl_seatrac) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usbl_seatrac' with type 'ros.ament_cmake' and name 'usbl_seatrac'
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.204s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_ros_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'bluerov_ros_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_ros_camera', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'bluerov_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'bluerov_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_vision', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'castor_pollux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'castor_pollux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/castor_pollux', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'guidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'guidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/guidance', 'symlink_install': False, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'message2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'message2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/message2', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'rviz_view' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_view' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'td2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'td2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'usbl_seatrac' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'usbl_seatrac' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac', 'merge_install': False, 'path': '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac', 'symlink_install': False, 'test_result_base': None}
+[0.239s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/message2' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/message2'
+[0.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_ros_camera' with build type 'ament_python'
+[0.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov_ros_camera', 'ament_prefix_path')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/ament_prefix_path.ps1'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/ament_prefix_path.dsv'
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/ament_prefix_path.sh'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_vision' with build type 'ament_python'
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov_vision', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/ament_prefix_path.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/ament_prefix_path.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/ament_prefix_path.sh'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/castor_pollux' with build type 'ament_python'
+[0.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('castor_pollux', 'ament_prefix_path')
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/ament_prefix_path.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/ament_prefix_path.sh'
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/control' with build type 'ament_python'
+[0.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/ament_prefix_path.ps1'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/ament_prefix_path.dsv'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/ament_prefix_path.sh'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/guidance' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('guidance', 'ament_prefix_path')
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/ament_prefix_path.sh'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/sensors' with build type 'ament_python'
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'ament_prefix_path')
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/ament_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/ament_prefix_path.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/message2 -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2
+[0.431s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_ros_camera'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_vision'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.741s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/castor_pollux'
+[0.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/control'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/guidance'
+[1.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view
+[1.218s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/sensors'
+[1.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2 -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/sensors': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/install.log --single-version-externally-managed install_data
+[1.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_vision': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bluerov_vision build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/install.log --single-version-externally-managed install_data
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/guidance': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guidance build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/install.log --single-version-externally-managed install_data
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/message2 -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2 -- -j20 -l20
+[1.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/castor_pollux': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/castor_pollux build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/install.log --single-version-externally-managed install_data
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_ros_camera': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bluerov_ros_camera build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/install.log --single-version-externally-managed install_data
+[1.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_vision' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bluerov_vision build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_vision/install.log --single-version-externally-managed install_data
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision' for CMake module files
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision' for CMake config files
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/lib'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/bin'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/lib/pkgconfig/bluerov_vision.pc'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/lib/python3.10/site-packages'
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov_vision', 'pythonpath')
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/pythonpath.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/pythonpath.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/hook/pythonpath.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluerov_vision)
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/package.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/package.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/package.sh'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/package.bash'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/bluerov_vision/package.zsh'
+[1.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision/share/colcon-core/packages/bluerov_vision)
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance' for CMake module files
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/control': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/install.log --single-version-externally-managed install_data
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/guidance' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guidance build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/guidance/install.log --single-version-externally-managed install_data
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance' for CMake config files
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/lib'
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/bin'
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/lib/pkgconfig/guidance.pc'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/lib/python3.10/site-packages'
+[1.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('guidance', 'pythonpath')
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/pythonpath.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/pythonpath.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/hook/pythonpath.sh'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/bin'
+[1.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(guidance)
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/package.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/package.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/package.sh'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/guidance/package.zsh'
+[1.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance/share/colcon-core/packages/guidance)
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors' for CMake module files
+[1.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/sensors' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensors build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/sensors/install.log --single-version-externally-managed install_data
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors' for CMake config files
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/lib'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/bin'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/lib/pkgconfig/sensors.pc'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/lib/python3.10/site-packages'
+[1.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'pythonpath')
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/pythonpath.ps1'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/pythonpath.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/hook/pythonpath.sh'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/bin'
+[1.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/package.dsv'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/package.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/package.bash'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/sensors/package.zsh'
+[1.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors/share/colcon-core/packages/sensors)
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux' for CMake module files
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/castor_pollux' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/castor_pollux build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/castor_pollux/install.log --single-version-externally-managed install_data
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux' for CMake config files
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/pkgconfig/castor_pollux.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/lib/python3.10/site-packages'
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('castor_pollux', 'pythonpath')
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/pythonpath.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/pythonpath.dsv'
+[1.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/hook/pythonpath.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(castor_pollux)
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/package.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/package.sh'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/package.bash'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/castor_pollux/package.zsh'
+[1.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux/share/colcon-core/packages/castor_pollux)
+[2.002s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera' for CMake module files
+[2.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/bluerov_ros_camera' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bluerov_ros_camera build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/bluerov_ros_camera/install.log --single-version-externally-managed install_data
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera' for CMake config files
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/lib'
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/bin'
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/lib/pkgconfig/bluerov_ros_camera.pc'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/lib/python3.10/site-packages'
+[2.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov_ros_camera', 'pythonpath')
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/pythonpath.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/pythonpath.dsv'
+[2.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/hook/pythonpath.sh'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/bin'
+[2.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluerov_ros_camera)
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/package.ps1'
+[2.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/package.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/package.sh'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/package.bash'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/bluerov_ros_camera/package.zsh'
+[2.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera/share/colcon-core/packages/bluerov_ros_camera)
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control' for CMake module files
+[2.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/control' returned '0': PYTHONPATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/build install --record /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/control/install.log --single-version-externally-managed install_data
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control' for CMake config files
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/lib'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/bin'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/lib/pkgconfig/control.pc'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/lib/python3.10/site-packages'
+[2.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/pythonpath.ps1'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/pythonpath.dsv'
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/hook/pythonpath.sh'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/bin'
+[2.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/package.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/package.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/package.sh'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/package.bash'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/control/package.zsh'
+[2.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control/share/colcon-core/packages/control)
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/rviz_view -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view
+[2.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[2.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2 -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2
+[2.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2 -- -j20 -l20
+[3.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2 -- -j20 -l20
+[3.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2
+[3.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message2)
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' for CMake module files
+[3.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' for CMake config files
+[3.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('message2', 'cmake_prefix_path')
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.dsv'
+[3.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib'
+[3.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('message2', 'ld_library_path_lib')
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.dsv'
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.sh'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/bin'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib/pkgconfig/message2.pc'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib/python3.10/site-packages'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/bin'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.sh'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.bash'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.zsh'
+[3.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/colcon-core/packages/message2)
+[3.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message2)
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' for CMake module files
+[3.120s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2' for CMake config files
+[3.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('message2', 'cmake_prefix_path')
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.ps1'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.dsv'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/cmake_prefix_path.sh'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib'
+[3.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('message2', 'ld_library_path_lib')
+[3.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.ps1'
+[3.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/hook/ld_library_path_lib.sh'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/bin'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib/pkgconfig/message2.pc'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/lib/python3.10/site-packages'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/bin'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.ps1'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.sh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/message2/package.zsh'
+[3.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2/share/colcon-core/packages/message2)
+[3.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac' with build type 'ament_cmake'
+[3.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac'
+[3.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac
+[4.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac' returned '0': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake /home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac -DCMAKE_INSTALL_PREFIX=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac
+[4.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac -- -j20 -l20
+[10.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[10.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view
+[10.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_view)
+[10.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view
+[10.552s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' for CMake module files
+[10.553s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' for CMake config files
+[10.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_view', 'cmake_prefix_path')
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.ps1'
+[10.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.dsv'
+[10.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.sh'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/bin'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/pkgconfig/rviz_view.pc'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/python3.10/site-packages'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/bin'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.ps1'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.dsv'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.sh'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.bash'
+[10.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.zsh'
+[10.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/colcon-core/packages/rviz_view)
+[10.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_view)
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' for CMake module files
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view' for CMake config files
+[10.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_view', 'cmake_prefix_path')
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.ps1'
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.dsv'
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/hook/cmake_prefix_path.sh'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/bin'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/pkgconfig/rviz_view.pc'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/python3.10/site-packages'
+[10.561s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/bin'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.ps1'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.dsv'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.sh'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.bash'
+[10.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.zsh'
+[10.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/colcon-core/packages/rviz_view)
+[10.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac' returned '0': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac -- -j20 -l20
+[10.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac
+[10.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usbl_seatrac)
+[10.674s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' for CMake module files
+[10.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac' returned '0': CMAKE_PREFIX_PATH=/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/message2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac:/home/tbelier/drivers/drivers_rtac_asio/:/home/tbelier/drivers/drivers_seatrac/:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/usbl_seatrac
+[10.675s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' for CMake config files
+[10.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('usbl_seatrac', 'cmake_prefix_path')
+[10.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.ps1'
+[10.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.dsv'
+[10.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.sh'
+[10.677s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib'
+[10.677s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/bin'
+[10.677s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/pkgconfig/usbl_seatrac.pc'
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/python3.10/site-packages'
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/bin'
+[10.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.ps1'
+[10.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.dsv'
+[10.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.sh'
+[10.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.bash'
+[10.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.zsh'
+[10.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/colcon-core/packages/usbl_seatrac)
+[10.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usbl_seatrac)
+[10.680s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' for CMake module files
+[10.680s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac' for CMake config files
+[10.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('usbl_seatrac', 'cmake_prefix_path')
+[10.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.ps1'
+[10.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.dsv'
+[10.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/hook/cmake_prefix_path.sh'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/bin'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/pkgconfig/usbl_seatrac.pc'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/lib/python3.10/site-packages'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/bin'
+[10.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.ps1'
+[10.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.dsv'
+[10.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.sh'
+[10.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.bash'
+[10.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/usbl_seatrac/package.zsh'
+[10.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/usbl_seatrac/share/colcon-core/packages/usbl_seatrac)
+[12.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2 -- -j20 -l20
+[12.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2
+[12.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(td2)
+[12.357s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' for CMake module files
+[12.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2
+[12.358s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' for CMake config files
+[12.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('td2', 'cmake_prefix_path')
+[12.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.ps1'
+[12.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.dsv'
+[12.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.sh'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/bin'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib/pkgconfig/td2.pc'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib/python3.10/site-packages'
+[12.359s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/bin'
+[12.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.ps1'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.dsv'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.sh'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.bash'
+[12.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.zsh'
+[12.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/colcon-core/packages/td2)
+[12.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(td2)
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' for CMake module files
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2' for CMake config files
+[12.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('td2', 'cmake_prefix_path')
+[12.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.ps1'
+[12.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.dsv'
+[12.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/hook/cmake_prefix_path.sh'
+[12.362s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib'
+[12.362s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/bin'
+[12.362s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib/pkgconfig/td2.pc'
+[12.362s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/lib/python3.10/site-packages'
+[12.362s] Level 1:colcon.colcon_core.environment:checking '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/bin'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.ps1'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.dsv'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.sh'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.bash'
+[12.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/td2/package.zsh'
+[12.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/td2/share/colcon-core/packages/td2)
+[12.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.364s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.369s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.379s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/local_setup.ps1'
+[12.380s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/_local_setup_util_ps1.py'
+[12.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/setup.ps1'
+[12.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/local_setup.sh'
+[12.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/_local_setup_util_sh.py'
+[12.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/setup.sh'
+[12.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/local_setup.bash'
+[12.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/setup.bash'
+[12.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/local_setup.zsh'
+[12.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/setup.zsh'

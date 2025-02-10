@@ -1,0 +1,4 @@
+[console_scripts]
+sensors_node = sensors.sensors_script:main
+sensors_node_debug = sensors.sensors_script_debug:main
+

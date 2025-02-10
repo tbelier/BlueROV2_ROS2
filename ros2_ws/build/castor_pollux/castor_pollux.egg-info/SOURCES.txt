@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/castor_pollux/castor_pollux.egg-info/PKG-INFO
+../../build/castor_pollux/castor_pollux.egg-info/SOURCES.txt
+../../build/castor_pollux/castor_pollux.egg-info/dependency_links.txt
+../../build/castor_pollux/castor_pollux.egg-info/entry_points.txt
+../../build/castor_pollux/castor_pollux.egg-info/requires.txt
+../../build/castor_pollux/castor_pollux.egg-info/top_level.txt
+../../build/castor_pollux/castor_pollux.egg-info/zip-safe
+castor_pollux/__init__.py
+launch/castor_pollux.launch.py
+launch/castor_polluxOld.launch.py
+resource/castor_pollux
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

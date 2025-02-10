@@ -1,0 +1,6 @@
+# Ignorer les dossiers rosbag, log, build, et install à n'importe quel niveau
+rosbag*/
+**/log/
+**/build/
+**/install/
+

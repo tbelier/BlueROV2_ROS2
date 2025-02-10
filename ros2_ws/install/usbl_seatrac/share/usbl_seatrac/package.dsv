@@ -1,0 +1,8 @@
+source;share/usbl_seatrac/hook/cmake_prefix_path.ps1
+source;share/usbl_seatrac/hook/cmake_prefix_path.dsv
+source;share/usbl_seatrac/hook/cmake_prefix_path.sh
+source;share/usbl_seatrac/local_setup.bash
+source;share/usbl_seatrac/local_setup.dsv
+source;share/usbl_seatrac/local_setup.ps1
+source;share/usbl_seatrac/local_setup.sh
+source;share/usbl_seatrac/local_setup.zsh

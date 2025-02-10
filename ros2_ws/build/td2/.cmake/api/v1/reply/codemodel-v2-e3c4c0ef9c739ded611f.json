@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ab4bb2bcb645e009cb4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "td2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "boat_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boat_controller_node-f15a05d9631fab5f69b9.json",
+					"name" : "boat_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "boat_simulation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boat_simulation_node-7027142c8ffcece21407.json",
+					"name" : "boat_simulation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "target_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-target_publisher_node-7045891405851c0ddb9d.json",
+					"name" : "target_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "td2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-td2_uninstall-c5bed7d88177520777a0.json",
+					"name" : "td2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-81674ca04b8bdd82dbd2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/td2",
+		"source" : "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/td2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

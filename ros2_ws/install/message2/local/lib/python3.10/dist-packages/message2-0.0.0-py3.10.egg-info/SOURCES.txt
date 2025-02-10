@@ -1,0 +1,8 @@
+setup.py
+message2/__init__.py
+message2.egg-info/PKG-INFO
+message2.egg-info/SOURCES.txt
+message2.egg-info/dependency_links.txt
+message2.egg-info/top_level.txt
+message2/msg/__init__.py
+message2/msg/_usbl.py

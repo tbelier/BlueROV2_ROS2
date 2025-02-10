@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "message2__py",
+		"source" : "/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/message2/message2__py"
+	}
+}

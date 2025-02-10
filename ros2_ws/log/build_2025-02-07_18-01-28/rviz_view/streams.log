@@ -1,0 +1,33 @@
+[0.823s] Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[1.001s] [ 33%] Built target boat_controller_node
+[1.002s] [ 66%] Built target target_publisher_node
+[1.002s] [100%] Built target boat_simulation_node
+[1.015s] Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --build /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view -- -j20 -l20
+[1.016s] Invoking command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view
+[1.036s] -- Install configuration: ""
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_simulation_node
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/boat_controller_node
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/lib/rviz_view/target_publisher_node
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view//launch
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view//launch/Bluerov.launch.py
+[1.036s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/meshes
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/meshes/boat.dae
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/meshes/BlueRov2.dae
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/config
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/config/rviz_view.yaml
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/package_run_dependencies/rviz_view
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/parent_prefix_path/rviz_view
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/ament_prefix_path.sh
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/ament_prefix_path.dsv
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/path.sh
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/environment/path.dsv
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.bash
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.sh
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.zsh
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/local_setup.dsv
+[1.037s] -- Installing: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.dsv
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/ament_index/resource_index/packages/rviz_view
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/cmake/rviz_viewConfig.cmake
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/cmake/rviz_viewConfig-version.cmake
+[1.037s] -- Up-to-date: /home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/rviz_view/share/rviz_view/package.xml
+[1.037s] Invoked command in '/home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/sensors:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/guidance:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/control:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/castor_pollux:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_vision:/home/tbelier/Documents/GIT/Guerle2/ros2_ws/install/bluerov_ros_camera:/opt/ros/humble /usr/bin/cmake --install /home/tbelier/Documents/GIT/Guerle2/ros2_ws/build/rviz_view

@@ -1,0 +1,3 @@
+[console_scripts]
+bluerov_visionNode = bluerov_vision.bluerov_vision:main
+
