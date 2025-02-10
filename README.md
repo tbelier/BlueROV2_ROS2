@@ -3,17 +3,7 @@ This repo allows me to store my ROS2 scripts to manipulate my BlueROV2 named Cas
 
 
 ## Pour avoir accès à l'USBL
-
-
-udp-connect:<host>:<port>	groups=FD,SOCKET,IP4,IP6,UDP
-      udp-datagram:<host>:<port>	groups=FD,SOCKET,RANGE,IP4,IP6,UDP
-      udp-listen:<port>	groups=FD,SOCKET,LISTEN,CHILD,RANGE,IP4,IP6,UDP
-      udp-recv:<port>	groups=FD,SOCKET,RANGE,IP4,IP6,UDP
-      udp-recvfrom:<port>	groups=FD,SOCKET,CHILD,RANGE,IP4,IP6,UDP
-      udp-sendto:<host>:<port>	groups=FD,SOCKET,IP4,IP6,UDP
-      
-      
-      
+     
  ### SUR LA RPI via le terminal blueos.local:
  
 	Crée un fichier socat_usb0.sh dans /usr/local/bin/ :
