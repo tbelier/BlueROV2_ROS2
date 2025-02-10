@@ -1,3 +1,0 @@
-[console_scripts]
-bluerov_ros_cameraNode = bluerov_ros_camera.bluerov_ros_camera:main
-

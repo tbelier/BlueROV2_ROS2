@@ -1,6 +1,0 @@
-source;share/castor_pollux/hook/pythonpath.ps1
-source;share/castor_pollux/hook/pythonpath.dsv
-source;share/castor_pollux/hook/pythonpath.sh
-source;share/castor_pollux/hook/ament_prefix_path.ps1
-source;share/castor_pollux/hook/ament_prefix_path.dsv
-source;share/castor_pollux/hook/ament_prefix_path.sh

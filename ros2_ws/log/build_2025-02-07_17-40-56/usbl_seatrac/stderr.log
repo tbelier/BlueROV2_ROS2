@@ -1,9 +1,0 @@
-[01m[K/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac/src/usbl_pub_cpp.cpp:[m[K In function ‘[01m[Kvoid write_message(message2::msg::Usbl&, const narval::seatrac::messages::PingResp&, rclcpp::Node&, int, float&)[m[K’:
-[01m[K/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac/src/usbl_pub_cpp.cpp:84:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kk[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   84 | nst narval::seatrac::messages::PingResp &data_response, rclcpp::Node &node_, [01;35m[Kint k[m[K, float &yaw0)
-      |                                                                              [01;35m[K~~~~^[m[K
-
-[01m[K/home/tbelier/Documents/GIT/Guerle2/ros2_ws/src/usbl_seatrac/src/usbl_pub_cpp.cpp:84:140:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kyaw0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   84 | narval::seatrac::messages::PingResp &data_response, rclcpp::Node &node_, int k, [01;35m[Kfloat &yaw0[m[K)
-      |                                                                                 [01;35m[K~~~~~~~^~~~[m[K
-
