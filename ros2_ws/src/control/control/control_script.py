@@ -61,7 +61,7 @@ class Control(Node):
         self.set_mode('STABILIZE') # also exist 'MANUAL', 'STABILIZE'
 
         # Gains
-        self.kJoy, self.kAscend = 2, 1
+        self.kJoy, self.kAscend = 1, 1
         self.lightValue = 1100
 
         # Get messages

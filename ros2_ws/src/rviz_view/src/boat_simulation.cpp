@@ -39,8 +39,8 @@ void BoatSimulation::init_parameters()
     state_(4) = this->get_parameter("initial_pitch").as_double();
     state_(5) = this->get_parameter("initial_yaw").as_double();
 
-    RCLCPP_INFO(this->get_logger(), "Initial parameters position: x=%.2f, y=%.2f, theta=%.2f", state_(0), state_(1), state_(2));
-    RCLCPP_INFO(this->get_logger(), "Initial parameters orientation: x=%.2f, y=%.2f, theta=%.2f", state_(3), state_(4), state_(5));
+    // RCLCPP_INFO(this->get_logger(), "Initial parameters position: x=%.2f, y=%.2f, theta=%.2f", state_(0), state_(1), state_(2));
+    // RCLCPP_INFO(this->get_logger(), "Initial parameters orientation: x=%.2f, y=%.2f, theta=%.2f", state_(3), state_(4), state_(5));
 }
 
 void BoatSimulation::init_interfaces()
@@ -56,11 +56,11 @@ void BoatSimulation::imu_callback(const geometry_msgs::msg::Twist::SharedPtr msg
     roll_ = msg->angular.x;
     pitch_ = msg->angular.y;
     yaw_ = msg->angular.z;
-    RCLCPP_INFO(this->get_logger(), "Received angular velocity command: %.2f,%.2f,%.2f", roll_, pitch_, yaw_);
+    // RCLCPP_INFO(this->get_logger(), "Received angular position : %.2f,%.2f,%.2f", roll_, pitch_, yaw_);
 
-    state_(3) = roll_ / 180 * PI;
-    state_(4) = pitch_ / 180 * PI; // ATTENTION A CHECKER SI LES ANGLES SORTIS DE /sensor/attitude_twist sont en deg ou rad
-    state_(5) = yaw_ / 180 * PI;
+    state_(3) = roll_;
+    state_(4) = pitch_; // ATTENTION A CHECKER SI LES ANGLES SORTIS DE /sensor/attitude_twist sont en deg ou rad
+    state_(5) = yaw_;
 
     simulate_once();
 }
@@ -83,8 +83,8 @@ void BoatSimulation::simulate_once()
     pose_msg.pose.orientation = tf2::toMsg(q);
 
     pose_publisher_->publish(pose_msg);
-    RCLCPP_INFO(this->get_logger(), "Published Pose: [x=%.2f, y=%.2f, theta=%.2f]", state_(0), state_(1), state_(2));
-    RCLCPP_INFO(this->get_logger(), "Published Orientation: [x=%.2f, y=%.2f, theta=%.2f]", state_(3), state_(4), state_(5));
+    // RCLCPP_INFO(this->get_logger(), "Published Pose: [x=%.2f, y=%.2f, theta=%.2f]", state_(0), state_(1), state_(2));
+    // RCLCPP_INFO(this->get_logger(), "Published Orientation: [x=%.2f, y=%.2f, theta=%.2f]", state_(3), state_(4), state_(5));
 
     publish_marker();
 }

@@ -18,8 +18,6 @@ find_package(visualization_msgs REQUIRED)
 include_directories(include)
 # Ajouter les fichiers source
 add_executable(boat_simulation_node src/boat_simulation.cpp)
-add_executable(boat_controller_node src/boat_controller.cpp)
-add_executable(target_publisher_node src/boat_global_target.cpp)
 
 # Lier les bibliothèques nécessaires
 ament_target_dependencies(boat_simulation_node
@@ -31,23 +29,12 @@ ament_target_dependencies(boat_simulation_node
   Eigen3
   visualization_msgs
 )
-ament_target_dependencies(boat_controller_node
-  rclcpp
-  geometry_msgs
-  tf2
-  tf2_geometry_msgs
-)
-ament_target_dependencies(target_publisher_node
-  rclcpp
-  geometry_msgs
-)
+
 
 # Installation de l'exécutable
 
  install(TARGETS
   boat_simulation_node
-  boat_controller_node
-  target_publisher_node
   DESTINATION lib/${PROJECT_NAME})
 
 

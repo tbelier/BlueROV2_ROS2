@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'guidance_depth = guidance.guidance_depth:main',
-            'guidance_path_following = guidance.guidance_path_following:main'
+            'guidance_path_following = guidance.guidance_path_following:main',
+            'guidance_orientation = guidance.guidance_orientation:main'
             ],
     },
 )
