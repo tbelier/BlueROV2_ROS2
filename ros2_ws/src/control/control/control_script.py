@@ -68,7 +68,6 @@ class Control(Node):
         self.U = Twist()
 
 
-        self.k = 0
 
     def callbackU(self,msg):
         self.U = msg
@@ -157,6 +156,14 @@ class Control(Node):
         static_channels = [1500,1500,1500,1500,1500,1500,1500,1500,1100,1500,1500,1500,1100,1500,1500,1500]
         if self.isArmed:
             if self.isAutonomous:
+
+                roll  = int(1500+400*np.tanh(self.kJoy*self.U.angular.x))
+                pitch = int(1500+400*np.tanh(self.kJoy*self.joyPitch))
+                yaw   = int(1500+400*np.tanh(self.kJoy*self.joyYaw))
+                self.Tcolor(f"roll : {roll}", "blue")
+                self.Tcolor(f"pitch : {pitch}", "blue")
+                self.Tcolor(f"yaw : {yaw}", "blue")
+
                 forward = int(1500+400*np.tanh(self.kJoy*self.joyForward))
                 ascend  = int(1500+400*np.tanh(-self.kAscend*self.U.linear.z))
                 lateral = int(1500+400*np.tanh(self.kJoy*self.joyLateral))
@@ -168,14 +175,14 @@ class Control(Node):
                 cameraPan  = int(1500+400*np.tanh(self.kJoy*(self.butTiltUp-self.butTiltDown)))
                 cameraTilt  = int(1500+400*np.tanh(self.kJoy*(self.butPan)))
 
-                channels = [1500,1500,ascend,1500,forward,lateral,cameraPan,cameraTilt,self.lightValue,1500,1500,1500,1100,1500,1500,1500]
+                channels = [1500,roll,ascend,1500,forward,lateral,cameraPan,cameraTilt,self.lightValue,1500,1500,1500,1100,1500,1500,1500]
                 #self.Tcolor(channels, "red")
                 self.send_mavlink_msg(channels)
 
             else:
                 yaw   = int(1500+400*np.tanh(self.kJoy*self.joyYaw))
-                pitch = int(1500+400*np.tanh(self.kJoy*self.joyPitch)) # = 0 when in ROV config 
-                roll  = int(1500+400*np.tanh(self.kJoy*self.joyRoll))  # = 0 when in ROV config
+                pitch = int(1500+400*np.tanh(self.kJoy*self.joyPitch))
+                roll  = int(1500+400*np.tanh(self.kJoy*self.joyRoll))
 
                 forward = int(1500+400*np.tanh(self.kJoy*self.joyForward))
                 lateral = int(1500+400*np.tanh(self.kJoy*self.joyLateral))

@@ -1,50 +1,47 @@
 import sys
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, Pose
 from pymavlink import mavutil
 from std_msgs.msg import Float64
 
 from message2.msg import Usbl
 import numpy as np
 
-class Guidance(Node):
+class Localization(Node):
     def __init__(self):
-        super().__init__('Guidance')# Init Node
+        super().__init__('Localization')# Init Node
 
         # Subscribers
         self.subscriptionPressure = self.create_subscription(Float64, 'sensor/pressure', self.callbackPressure, 10)
+        self.subscriptionUsbl = self.create_subscription(Float64, 'usbl_data', self.callbackUsbl, 10)
+        self.subscriptionImu = self.create_subscription(Twist, 'attitude_twist', self.callbackImu, 10)
 
         # Publishers
-        self.publisherU = self.create_publisher(Twist, 'real/u', 10)
+        self.publisherPose = self.create_publisher(Pose, 'pose', 10)
         
-        self.pressure, self.oldPressure = 0.,0.
-        self.Ureal = Twist()
+        self.pressure = 0.
+        self.pose = Pose()
 
-        self.depthConsigne = 1.5
-        self.Kp,self.Kd = 0.5,2
-        self.errI = 0.
-        
     def callbackPressure(self,msg):
         self.oldPressure = self.pressure
         self.pressure = msg.data
-
         self.depth = (self.pressure-1000.)/100.
-        
-        #self.Tcolor(self.depth, "red")
-        #self.Tcolor(self.depthConsigne, "blue")
-         # ça ça marche
-        errP = self.depthConsigne-self.depth
-        self.errI += errP
-        self.Ureal.linear.z = self.Kp*errP + self.errI
-        
-        #ça faut tester
-        #errP = self.depthConsigne-self.depth
-        #errD = self.pressure-self.oldPressure
+        self.pose.linear.z = -self.depth
 
-        self.Ureal.linear.z = self.Kp*errP #+ self.Kd*errD
 
-        self.publisherU.publish(self.Ureal)
+    def callbackImu(self,msg):
+        self.IMU = msg
+        self.pose.angular.x = self.IMU.angular.x
+        self.pose.angular.y = self.IMU.angular.y
+        self.pose.angular.z = self.IMU.angular.z
+
+    def callbackUsbl(self,msg):
+        self.usbl = msg
+        self.pose.linear.x = msg.range*np.cos(msg.azimuth)
+        self.pose.linear.y = msg.range*np.cos(msg.azimuth) 
+
+        self.publisherPose.publish(self.pose)
 
     def Tcolor(self, text, color):
         if color == "b" or color == "blue": self.get_logger().info(f"\033[94m {text} \033[0m")
@@ -54,8 +51,8 @@ class Guidance(Node):
         
 def main(args=None):
     rclpy.init(args=args)
-    guidance = Guidance()
-    rclpy.spin(guidance)
+    localization = Localization()
+    rclpy.spin(localization)
     rclpy.shutdown()
 
 

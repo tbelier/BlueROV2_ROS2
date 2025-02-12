@@ -22,11 +22,13 @@ class Guidance(Node):
         self.oldIMU = Twist()
         self.Ureal = Twist()
 
-        self.rollConsigne  = 5 *np.pi/180 #rad
-        self.pitchConsigne = 5 *np.pi/180 #rad
-        self.yawConsigne   = 5 *np.pi/180 #rad
-        self.Kp,self.Kd = 0.5,2
-        self.errI = 0.
+        self.rollConsigne  = -45 *np.pi/180 #rad
+        self.pitchConsigne = 0 *np.pi/180 #rad
+        self.yawConsigne   = 0 *np.pi/180 #rad
+        self.Kp,self.Kd = 2,2
+        self.errIx = 0.
+        self.errIy = 0.
+        self.errIz = 0.
         
     def callbackIMU(self,msg):
         self.oldIMU = self.IMU
@@ -36,15 +38,22 @@ class Guidance(Node):
         #self.Tcolor(self.depth, "red")
         #self.Tcolor(self.depthConsigne, "blue")
          # ça ça marche
-        errP = self.yawConsigne-self.IMU.angular.z
-        self.errI += errP
-        self.Ureal.angular.z = self.Kp*errP + self.errI
+        errPx = self.rollConsigne-self.IMU.angular.x
+        errPy = self.pitchConsigne-self.IMU.angular.y
+        errPz = self.yawConsigne-self.IMU.angular.z
+        self.errIx += errPx
+        self.errIy += errPy
+        self.errIz += errPz
+        #self.Tcolor(f"errPx : {errPx}", "red")
+        #self.Tcolor(f"errIx : {self.errIx}", "orange")
+        self.Ureal.angular.x = self.Kp*errPx + self.errIx
+        self.Ureal.angular.y = self.Kp*errPy + self.errIy
+        self.Ureal.angular.z = self.Kp*errPz + self.errIz
         
         #ça faut tester
         #errP = self.depthConsigne-self.depth
         #errD = self.pressure-self.oldPressure
 
-        self.Ureal.angular.z = self.Kp*errP #+ self.Kd*errD
 
         self.publisherU.publish(self.Ureal)
 

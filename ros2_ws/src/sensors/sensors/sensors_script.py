@@ -33,7 +33,7 @@ class PublishSensors(Node):
         if self.k == 0 :
             m2 = master.recv_match(type='ATTITUDE', blocking =False)
             if m2 is not None :
-                self.Tcolor(m2,"blue")
+                #self.Tcolor(m2,"blue")
                 # Conversion en degrés
                 yaw_deg = (m2.yaw / np.pi) * 180.
                 pitch_deg = (m2.pitch / np.pi) * 180.
@@ -49,7 +49,7 @@ class PublishSensors(Node):
         if self.k == 1: 
             m = master.recv_match(type='SCALED_PRESSURE2', blocking =False)
             if m is not None:
-                self.Tcolor(m,"red")
+                #self.Tcolor(m,"red")
                 p = m.press_abs  # hPa = mB
                 self.press_msg.data = p
                 self.publisherPressure.publish(self.press_msg)

@@ -59,5 +59,5 @@ def generate_launch_description():
 		node_vision,
 		node_vision_treatment,
 		node_usbl,
-		launch.actions.ExecuteProcess(cmd=['ros2', 'bag', 'record', '/sensor/attitude_twist', '/sensor/pressure', '/usbl_data', '/joy', "real/u", "/ImageRaw", ],output='screen') 
+		launch.actions.ExecuteProcess(cmd=['ros2', 'bag', 'record', '/sensor/attitude_twist', '/sensor/pressure', '/usbl_data', '/joy', "real/u" ],output='screen') 
 	])
