@@ -59,18 +59,7 @@ def generate_launch_description():
 		name='usbl_seatrac', # nom du node lors du lancement
 	)
 
-	node_rviz_view1 = Node(
-            package='rviz_view',
-            executable='target_publisher_node',
-            name='target_publisher_node',
-            output='screen'
-        )
-	node_rviz_view2 = Node(
-            package='rviz_view',
-            executable='boat_controller_node',
-            name='boat_controller_node',
-            output='screen'
-        )
+
 	
 	node_rviz_view = Node(
             package='rviz_view',
@@ -79,6 +68,11 @@ def generate_launch_description():
             output='screen',
             parameters=[LaunchConfiguration('params_file')]
         )
+	node_localization = Node(
+		package='localization', # nom du package
+		executable='localization', # nom de l'executable
+		name='localization', # nom du node lors du lancement
+	)
 
 	# retour de la fonction avec la liste des nodes à lancer
 	return LaunchDescription([
@@ -91,5 +85,6 @@ def generate_launch_description():
 		node_vision_treatment,
 		node_usbl,
 		node_rviz_view,
+		node_localization,
 		launch.actions.ExecuteProcess(cmd=['ros2', 'bag', 'record', '/sensor/attitude_twist', '/sensor/pressure', '/usbl_data', '/joy', "real/u" ],output='screen') 
 	])

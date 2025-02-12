@@ -47,23 +47,17 @@ void BoatSimulation::init_interfaces()
 {
     pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("boat_pose", 10);
     marker_publisher_ = this->create_publisher<visualization_msgs::msg::Marker>("boat_marker", 10);
-    pose_subscription_ = this->create_subscription<geometry_msgs::msg::Pose>(
-        "pose", 10, std::bind(&BoatSimulation::pose_callback, this, std::placeholders::_1));
+    imu_subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
+        "/sensor/attitude_twist", 10, std::bind(&BoatSimulation::imu_callback, this, std::placeholders::_1));
 }
 
-void BoatSimulation::pose_callback(const geometry_msgs::msg::Pose::SharedPtr msg)
+void BoatSimulation::imu_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
 {
-    x_ = msg->linear.x;
-    y_ = msg->linear.y;
-    z_ = msg->linear.z;
     roll_ = msg->angular.x;
     pitch_ = msg->angular.y;
     yaw_ = msg->angular.z;
     // RCLCPP_INFO(this->get_logger(), "Received angular position : %.2f,%.2f,%.2f", roll_, pitch_, yaw_);
 
-    state_(0) = x_;
-    state_(1) = y_;
-    state_(2) = z_;
     state_(3) = roll_;
     state_(4) = pitch_; // ATTENTION A CHECKER SI LES ANGLES SORTIS DE /sensor/attitude_twist sont en deg ou rad
     state_(5) = yaw_;

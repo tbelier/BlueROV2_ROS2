@@ -3,7 +3,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
-#include <geometry_msgs/msg/twist.hpp>
+#include <geometry_msgs/msg/pose.hpp>
 #include <visualization_msgs/msg/marker.hpp>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <Eigen/Dense>
@@ -18,7 +18,7 @@ private:
     void init_interfaces();
     void simulate_once();
     void publish_marker();
-    void imu_callback(const geometry_msgs::msg::Twist::SharedPtr msg);
+    void pose_callback(const geometry_msgs::msg::Pose::SharedPtr msg);
 
     Eigen::Matrix<double, 6, 1> state_;
     double velocity_;
@@ -29,7 +29,7 @@ private:
 
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher_;
     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_publisher_;
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr imu_subscription_;
+    rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr pose_subscription_;
     rclcpp::TimerBase::SharedPtr timer_;
 };
 
