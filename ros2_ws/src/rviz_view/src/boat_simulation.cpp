@@ -45,20 +45,20 @@ void BoatSimulation::init_parameters()
 
 void BoatSimulation::init_interfaces()
 {
-    pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("boat_pose", 10);
+    // pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("boat_pose", 10);
     marker_publisher_ = this->create_publisher<visualization_msgs::msg::Marker>("boat_marker", 10);
-    pose_subscription_ = this->create_subscription<geometry_msgs::msg::Pose>(
+    pose_subscription_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
         "pose", 10, std::bind(&BoatSimulation::pose_callback, this, std::placeholders::_1));
 }
 
-void BoatSimulation::pose_callback(const geometry_msgs::msg::Pose::SharedPtr msg)
+void BoatSimulation::pose_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg)
 {
-    x_ = msg->linear.x;
-    y_ = msg->linear.y;
-    z_ = msg->linear.z;
-    roll_ = msg->angular.x;
-    pitch_ = msg->angular.y;
-    yaw_ = msg->angular.z;
+    x_ = msg->pose.position.x;
+    y_ = msg->pose.position.y;
+    z_ = msg->pose.position.z;
+    roll_ = msg->pose.orientation.x;
+    pitch_ = msg->pose.orientation.y;
+    yaw_ = msg->pose.orientation.z;
     // RCLCPP_INFO(this->get_logger(), "Received angular position : %.2f,%.2f,%.2f", roll_, pitch_, yaw_);
 
     state_(0) = x_;
@@ -68,9 +68,9 @@ void BoatSimulation::pose_callback(const geometry_msgs::msg::Pose::SharedPtr msg
     state_(4) = pitch_; // ATTENTION A CHECKER SI LES ANGLES SORTIS DE /sensor/attitude_twist sont en deg ou rad
     state_(5) = yaw_;
 
-    simulate_once();
+    publish_marker();
 }
-
+/**
 void BoatSimulation::simulate_once()
 {
     auto pose_msg = geometry_msgs::msg::PoseStamped();
@@ -94,7 +94,7 @@ void BoatSimulation::simulate_once()
 
     publish_marker();
 }
-
+*/
 void BoatSimulation::publish_marker()
 {
     visualization_msgs::msg::Marker marker;

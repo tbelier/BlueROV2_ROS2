@@ -1,33 +1,35 @@
 import sys
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist, Pose
+from geometry_msgs.msg import Twist, PoseStamped
 from pymavlink import mavutil
 from std_msgs.msg import Float64
 
 from message2.msg import Usbl
 import numpy as np
 import time
-from roblib import *
-import os
 
+import os
+import sys
+sys.path.append("/home/tbelier/Documents/GIT/BlueROV2_ROS2/ros2_ws/src/guidance/guidance")
+from roblib import *
 class Guidance(Node):
     def __init__(self):
         super().__init__('Guidance')# Init Node
 
         # Subscribers
-        self.subscriptionPose = self.create_subscription(Pose, 'Pose', self.callbackPose, 10)
+        self.subscriptionPose = self.create_subscription(PoseStamped, 'pose', self.callbackPose, 10)
 
         # Publishers
         self.publisherU = self.create_publisher(Twist, 'real/u', 10)
         
-        self.pose = Pose()
+        self.pose = PoseStamped()
         self.U = Twist()
         self.U.linear.x = 0.5
 
         self.t0 = time.time()
-
-        self.Lpath = getPath("AllPointsXYCSTheta.npy")
+        
+        self.Lpath = "/home/tbelier/Documents/GIT/BlueROV2_ROS2/ros2_ws/src/guidance/guidance/AllPointsXYCSTheta.npy"
 
         # Params de la simulation
         self.K, self.K1, self.Kdy1, self.K10 = 10, 10, 1, 10
@@ -35,14 +37,14 @@ class Guidance(Node):
 
 
     def callbackPose(self,msg):
-        X = np.array([[msg.linear.x],
-                      [msg.linear.y],
-                      [msg.angular.z]])
+        X = np.array([[msg.pose.position.x],
+                      [msg.pose.position.y],
+                      [msg.pose.orientation.z]])
         u1, u2 = self.U.linear.x,self.U.angular.z
         U = np.array([[u1],
                       [u2]]) # U is not self.U directly, one is ROS twist the other one a numpy array
                 
-        psi = msg.angular.z
+        psi = msg.pose.orientation.z
         self.pose = msg
 
         B = np.array([[cos(psi), 0], 
@@ -55,7 +57,7 @@ class Guidance(Node):
                         [y0]])
         W_0 = np.array([[psi0]])
 
-        lievre, lievreCc = interrogation_chemin(self.Lpath, s)
+        lievre, lievreCc = interrogation_chemin(self.Lpath, self.s)
         lievreX,lievreY,lievrePsi = lievre.flatten()
         
         E = lievre-X
@@ -90,7 +92,7 @@ class Guidance(Node):
         u2 = dot_psi
 
         if sp < 0: sp = 0
-        s = s + sp*(self.t0-time.time())
+        self.s = self.s + sp*(self.t0-time.time())
         self.t0 = time.time()
 
         self.U.linear.x = u1
@@ -113,6 +115,7 @@ def find_index_in_interval_np(s, pathCSY): #on donne une valeur s et une liste 1
 
 def interrogation_chemin(L, s):
     index = find_index_in_interval_np(s, L)
+    print(index)
     lievreX, lievreY, lievreC, lievreS, lievrePsi = L[index]
     return np.array([[lievreX],
                      [lievreY],

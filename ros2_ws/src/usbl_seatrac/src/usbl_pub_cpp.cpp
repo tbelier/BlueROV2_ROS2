@@ -251,7 +251,7 @@ int main(int argc, char **argv)
     MyDriver seatrac(device);
     std::cout << "Avant 1er Ping" << std::endl;
 
-    command::ping_send(seatrac, BEACON_ID_1, MSG_REQU);
+    command::ping_send(seatrac, BEACON_ID_15, MSG_REQU);
     std::cout << "Après 1er ping" << std::endl;
     getchar();
 
@@ -263,7 +263,7 @@ int main(int argc, char **argv)
         try
         {
             std::cout << "try" << std::endl;
-            std::cout << "ping_send" << command::ping_send(seatrac, BEACON_ID_1) << std::endl;
+            std::cout << "ping_send" << command::ping_send(seatrac, BEACON_ID_15) << std::endl;
         }
         catch (const TimeoutReached &e)
         {

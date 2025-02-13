@@ -21,7 +21,7 @@ def csv_to_numpy(filename):
     return np.array(data)
 
 # Chargement des données
-filename = 'ros2_ws/250205_rosbagStabilisationProfondeurClean/save.csv'  
+filename = "/home/tbelier/Documents/GIT/BlueROV2_ROS2/ros2_ws/rosbag2_2025_02_13-14_39_38/logs.csv"
 tableau_numpy = csv_to_numpy(filename)
 
 # Extraction des colonnes X, Y, Z (indices 36, 37, 38)
@@ -29,10 +29,10 @@ x, y, z = [], [], []
 
 for k in range(len(tableau_numpy)):
     try:
-        if not np.isnan(tableau_numpy[k, 36]):  # Vérifier si la valeur est valide
-            x.append(tableau_numpy[k, 43])
-            y.append(-tableau_numpy[k, 44])
-            z.append(tableau_numpy[k, 45])
+        if not np.isnan(tableau_numpy[k, 33]):  # Vérifier si la valeur est valide
+            x.append(tableau_numpy[k, 31])
+            y.append(-tableau_numpy[k, 32])
+            z.append(tableau_numpy[k, 33])
     except IndexError:
         continue  # Si la ligne ne contient pas assez de colonnes
 
@@ -47,7 +47,8 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # Tracer les points avec des couleurs variables
-scatter = ax.scatter(z, x, y, c=time, cmap='coolwarm', s=20)
+ax.plot(x,y,-z)
+scatter = ax.scatter(x,y,-z, c=time, cmap='coolwarm', s=20)
 
 
 # Ajout de labels

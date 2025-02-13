@@ -1,6 +1,7 @@
 from launch import LaunchDescription
 from launch import LaunchService
 from launch_ros.actions import Node
+from launch.actions import DeclareLaunchArgument
 from launch.substitutions import Command, LaunchConfiguration
 import launch_ros.actions
 import os
@@ -9,6 +10,15 @@ from ament_index_python import get_package_share_directory
 
 def generate_launch_description():
 
+	declare_params = DeclareLaunchArgument(
+        'params_file',
+        default_value=os.path.join(
+            get_package_share_directory('rviz_view'),
+            'config',
+            'rviz_view.yaml'
+        )
+    )
+			
 	node_vision_treatment = Node(
         package='bluerov_vision',
         executable='bluerov_visionNode',
@@ -49,9 +59,22 @@ def generate_launch_description():
 		name='usbl_seatrac', # nom du node lors du lancement
 	)
 
+	node_rviz_view = Node(
+            package='rviz_view',
+            executable='boat_simulation_node',
+            name='simulation',
+            output='screen',
+            parameters=[LaunchConfiguration('params_file')]
+        )
+	node_localization = Node(
+		package='localization', # nom du package
+		executable='localization', # nom de l'executable
+		name='localization', # nom du node lors du lancement
+	)
+
 	# retour de la fonction avec la liste des nodes à lancer
 	return LaunchDescription([
-
+		declare_params,
 		node_sensors,
 		node_guidage,
 		node_joy,
@@ -59,5 +82,7 @@ def generate_launch_description():
 		node_vision,
 		node_vision_treatment,
 		node_usbl,
-		launch.actions.ExecuteProcess(cmd=['ros2', 'bag', 'record', '/sensor/attitude_twist', '/sensor/pressure', '/usbl_data', '/joy', "real/u" ],output='screen') 
+		node_rviz_view,
+		node_localization,
+		launch.actions.ExecuteProcess(cmd=['ros2', 'bag', 'record', '/sensor/attitude_twist', '/sensor/pressure', '/usbl_data', '/joy', "real/u", "pose" ],output='screen') 
 	])

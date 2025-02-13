@@ -16,9 +16,9 @@ public:
 private:
     void init_parameters();
     void init_interfaces();
-    void simulate_once();
+    // void simulate_once();
     void publish_marker();
-    void pose_callback(const geometry_msgs::msg::Pose::SharedPtr msg);
+    void pose_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg);
 
     Eigen::Matrix<double, 6, 1> state_;
     double velocity_;
@@ -27,9 +27,18 @@ private:
     double pitch_;
     double yaw_;
 
+    double q1_;
+    double q2_;
+    double q3_;
+    double w_;
+
+    double x_;
+    double y_;
+    double z_;
+
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher_;
     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_publisher_;
-    rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr pose_subscription_;
+    rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_subscription_;
     rclcpp::TimerBase::SharedPtr timer_;
 };
 
